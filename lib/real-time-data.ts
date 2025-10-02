@@ -304,7 +304,7 @@ class RealTimeDataService {
 export const realTimeDataService = new RealTimeDataService()
 
 // Export types and utilities
-export { DataUpdateEvent, DataUpdateCallback }
+// Types are already exported above, no need to re-export
 
 /**
  * Hook for using real-time data in React components
